@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import cn.edu.guet.xianhuo.R;
 
 /**
- * 登录首页
+ * 用户登录
  */
 public class UserLogin extends AppCompatActivity {
 
@@ -28,7 +28,6 @@ public class UserLogin extends AppCompatActivity {
         /**
          * 检查token进行自动登录
          */
-
         account_input = findViewById(R.id.account_input);
         password_input = findViewById(R.id.password_input);
 
